@@ -1,4 +1,4 @@
-var getRabbitMQUrl = require('rabbitmq/bus').getRabbitMQUrl
+var getRabbitMQUrl = require('lib/getRabbitMQUrl')
 
 describe('getRabbitMQUrl', function() {
   it('determines url based on options available', function() {
