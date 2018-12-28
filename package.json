@@ -15,10 +15,10 @@
     "test:watch": "NODE_ENV=test jest --config jest.json --watch --coverage --verbose",
     "test:staging": "mocha -R spec --recursive --exit"
   },
-  "homepage": "https://github.com/mateodelnorte/servicebus",
+  "homepage": "https://github.com/servicebus/rabbitbus",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mateodelnorte/servicebus.git"
+    "url": "https://github.com/servicebus/rabbitbus.git"
   },
   "engines": {
     "node": "0.6 || 0.8 || 0.9 || 0.10 || 0.12"
