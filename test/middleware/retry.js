@@ -2,7 +2,7 @@ var noop = function () {};
 var log = require('debug')('servicebus:test');
 var bus = require('../bus-shim').bus;
 
-var retry = require('../../bus/middleware/retry');
+var retry = require('@servicebus/bus/bus/middleware/retry');
 
 var retry = require('servicebus-retry');
 var should = require('should');

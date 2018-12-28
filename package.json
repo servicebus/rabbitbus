@@ -1,5 +1,5 @@
 {
-  "name": "servicebus",
+  "name": "@servicebus/rabbitbus",
   "description": "Simple service bus for sending events between processes using amqp.",
   "version": "0.0.0-development",
   "author": "Matt Walters <mattwalters5@gmail.com>",
@@ -27,7 +27,6 @@
     "amqplib": "0.5.3",
     "debug": "4.1.1",
     "extend": "3.0.2",
-    "readable-id-mjs": "1.0.0",
     "uuid": "3.3.2"
   },
   "devDependencies": {
