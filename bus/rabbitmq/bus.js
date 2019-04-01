@@ -1,14 +1,14 @@
 var amqp = require('amqplib'),
-    Bus = require('@servicebus/bus'),
-    Correlator = require('./correlator'),
+    Bus = require('@servicebus/core').BusProxy,
+    json = require('@servicebus/json-formatter'),
     log = require('debug')('servicebus'),
     events = require('events'),
     extend = require('extend'),
-    json = require('@servicebus/bus/bus/formatters/json'),
+    util = require('util'),
+    Correlator = require('./correlator'),
     PubSubQueue = require('./pubsubqueue'),
     querystring = require('querystring'),
     Queue = require('./queue'),
-    util = require('util'),
     getRabbitMQUrl = require('../lib/getRabbitMQUrl');
 
 function RabbitMQBus (options, implOpts) {
@@ -101,6 +101,8 @@ function RabbitMQBus (options, implOpts) {
 
   Bus.call(this);
 }
+
+console.log({Bus})
 
 util.inherits(RabbitMQBus, Bus);
 

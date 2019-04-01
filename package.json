@@ -20,9 +20,6 @@
     "type": "git",
     "url": "https://github.com/servicebus/rabbitbus.git"
   },
-  "engines": {
-    "node": "0.6 || 0.8 || 0.9 || 0.10 || 0.12"
-  },
   "dependencies": {
     "amqplib": "0.5.3",
     "debug": "4.1.1",
@@ -30,14 +27,13 @@
     "uuid": "3.3.2"
   },
   "devDependencies": {
-    "commitizen": "3.0.5",
+    "commitizen": "3.0.7",
     "cz-conventional-changelog": "2.1.0",
-    "jest": "23.6.0",
+    "jest": "24.5.0",
     "longjohn": "0.2.12",
-    "mocha": "5.2.0",
-    "servicebus-retry": "0.0.13",
+    "mocha": "^6.0.2",
     "should": "13.2.3",
-    "sinon": "7.2.2"
+    "sinon": "7.3.1"
   },
   "optionalDependencies": {},
   "config": {

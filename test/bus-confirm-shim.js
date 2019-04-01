@@ -6,7 +6,7 @@ if ( ! process.env.RABBITMQ_URL)
 var busUrl = process.env.RABBITMQ_URL;
 
 var bus = require('../').bus({ url: busUrl, enableConfirms: true });
-var retry = require('servicebus-retry');
+var retry = require('@servicebus/retry');
 
 bus.use(bus.messageDomain());
 bus.use(bus.package());
