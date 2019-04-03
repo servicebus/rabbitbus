@@ -1,23 +1,18 @@
-var noop = function () {};
-var log = require('debug')('servicebus:test');
-var bus = require('../bus-shim').bus;
-var should = require('should');
+var noop = function () {}
+var log = require('debug')('servicebus:test')
+var bus = require('../bus-shim').bus
+var should = require('should')
 
 // the following code is being use in the above shim
 // var retry = require('../../bus/middleware/retry');
 // bus.use(retry());
 
-describe('retry', function() {
-
+describe('retry', function () {
   describe('middleware', function () {
     it('should throw deprecated feature error with link to servicebus-retry', function () {
-
       should(function () {
-        bus.use(bus.retry());
+        bus.use(bus.retry())
       }).throw(Error)
-
-    });
-
-  });
-
-});
+    })
+  })
+})

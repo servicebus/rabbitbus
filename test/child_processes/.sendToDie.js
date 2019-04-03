@@ -1,3 +1,3 @@
-var bus = require('../bus-shim').bus;
+var bus = require('../bus-shim').bus
 
-bus.send('reject.and.die', { test: 'test' }, { ack: true });
+bus.send('reject.and.die', { test: 'test' }, { ack: true })

@@ -11,6 +11,7 @@ notifications:
 before_install:
   - npm install -g codecov
 script:
+  - npm run format
   - make docker-test
   - codecov
 
