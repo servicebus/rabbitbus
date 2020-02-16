@@ -21,12 +21,15 @@
     "url": "https://github.com/servicebus/rabbitbus.git"
   },
   "dependencies": {
+    "@servicebus/core": "^1.1.0",
+    "@servicebus/json-formatter": "^1.0.0",
     "amqplib": "0.5.3",
     "debug": "4.1.1",
     "extend": "3.0.2",
     "uuid": "3.3.2"
   },
   "devDependencies": {
+    "@servicebus/retry": "^1.0.0",
     "commitizen": "3.0.7",
     "cz-conventional-changelog": "2.1.0",
     "jest": "24.5.0",
