@@ -26,7 +26,7 @@
     "amqplib": "0.5.3",
     "debug": "4.1.1",
     "extend": "3.0.2",
-    "uuid": "3.3.2"
+    "uuid": "7.0.3"
   },
   "devDependencies": {
     "@servicebus/retry": "^1.0.0",
