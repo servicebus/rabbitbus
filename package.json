@@ -32,7 +32,7 @@
     "@servicebus/retry": "^1.0.0",
     "commitizen": "3.0.7",
     "cz-conventional-changelog": "2.1.0",
-    "jest": "24.5.0",
+    "jest": "26.0.1",
     "longjohn": "0.2.12",
     "mocha": "^6.0.2",
     "should": "13.2.3",
