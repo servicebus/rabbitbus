@@ -23,7 +23,7 @@
   "dependencies": {
     "@servicebus/core": "^1.1.0",
     "@servicebus/json-formatter": "^1.0.0",
-    "amqplib": "0.5.3",
+    "amqplib": "0.5.6",
     "debug": "4.1.1",
     "extend": "3.0.2",
     "uuid": "3.3.2"
