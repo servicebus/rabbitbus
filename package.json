@@ -23,20 +23,20 @@
   "dependencies": {
     "@servicebus/core": "^1.1.0",
     "@servicebus/json-formatter": "^1.0.0",
-    "amqplib": "0.5.3",
+    "amqplib": "0.5.6",
     "debug": "4.1.1",
     "extend": "3.0.2",
-    "uuid": "3.3.2"
+    "uuid": "8.1.0"
   },
   "devDependencies": {
     "@servicebus/retry": "^1.0.0",
-    "commitizen": "3.0.7",
-    "cz-conventional-changelog": "2.1.0",
-    "jest": "24.5.0",
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0",
+    "jest": "26.0.1",
     "longjohn": "0.2.12",
-    "mocha": "^6.0.2",
+    "mocha": "^7.1.2",
     "should": "13.2.3",
-    "sinon": "7.3.1"
+    "sinon": "9.0.2"
   },
   "optionalDependencies": {},
   "config": {
