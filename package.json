@@ -21,7 +21,7 @@
     "url": "https://github.com/servicebus/rabbitbus.git"
   },
   "dependencies": {
-    "@servicebus/core": "1.1.1",
+    "@servicebus/core": "1.1.2",
     "@servicebus/json-formatter": "1.0.0",
     "amqplib": "0.5.6",
     "debug": "4.1.1",
