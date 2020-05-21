@@ -1,8 +1,10 @@
-[![Build Status](https://travis-ci.org/mateodelnorte/servicebus.svg?branch=master)](https://travis-ci.org/mateodelnorte/servicebus) [![Greenkeeper badge](https://badges.greenkeeper.io/mateodelnorte/servicebus.svg)](https://greenkeeper.io/)
+# @servicebus/rabbitbus
+[![Build Status](https://travis-ci.org/servicebus/rabbitbus.svg?branch=master)](https://travis-ci.org/servicebus/rabbitbus)
+[![codecov](https://codecov.io/gh/servicebus/rabbitbus/branch/master/graph/badge.svg)](https://codecov.io/gh/servicebus/rabbitbus)
 
-# servicebus
+Simple service bus for sending events between processes using amqp. Allows for send/receive and publish/subscribe pattern messaging over RabbitMQ.
 
-  Simple service bus for sending events between processes using amqp. Allows for send/receive and publish/subscribe pattern messaging over RabbitMQ.  
+Commonly used in implementing microservices with CQRS/ES.
 
 ## Configuration
 
