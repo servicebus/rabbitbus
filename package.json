@@ -29,7 +29,7 @@
     "uuid": "8.3.2"
   },
   "devDependencies": {
-    "@servicebus/retry": "1.0.2",
+    "@servicebus/retry": "1.0.3",
     "commitizen": "4.2.2",
     "cz-conventional-changelog": "3.3.0",
     "jest": "26.6.3",
