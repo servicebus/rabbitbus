@@ -6,7 +6,7 @@ networks:
 services:
 
   tests:
-    image: node:14
+    image: node:16
     volumes:
       - .:/usr/src/
     working_dir: /usr/src/
