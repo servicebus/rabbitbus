@@ -36,7 +36,7 @@
     "longjohn": "0.2.12",
     "mocha": "8.2.1",
     "should": "13.2.3",
-    "sinon": "9.2.2"
+    "sinon": "15.2.0"
   },
   "optionalDependencies": {},
   "config": {
